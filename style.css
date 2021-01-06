@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    background: #ff6348;
+    width: 100%;
+    display: inline-block;
+    content: "";
+    overflow: hidden;
+    padding: 10px 0;
+    
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    margin: 0 auto;
+    
+}
+
+.menu ul li {
+    float: left;
+    overflow: hidden;
+    padding: 0 15px;
+    margin: 0 5px;
+    text-align: center;
+    border-right: 1px solid white;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.title-area h3 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.result-box h5 {
+    text-align: center;
+}
+.input-area {
+    text-align: center;
+}
+.right {
+    color: green;
+}
+.wrong {
+    color: red;
+}
